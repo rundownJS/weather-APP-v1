@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather-app.css">
+    <script defer src="weatherApp.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chartjs-plugin-gradient"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js" integrity="sha512-Hn1w6YiiFw6p6S2lXv6yKeqTk0PLVzeCwWY9n32beuPjQ5HLcvz5l2QsP+KilEr1ws37rCTw3bZpvfvVIeTh0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script defer src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>  
+    <main>
+        
+        <input type="text" placeholder="Search with city name, US zip, UK postcode, or latitude and longitude.">
+
+        <div class="weather-display">
+            <div class="skeleton-wrap">
+                <div class="top-wrap">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="top-scnd"></div>
+                <div class="top-three"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+        </div> 
+    </main>
+
+    <div class="advanced-data-overlay">
+        <div class="additional-info">
+        </div>
+
+        
+    </div>
+</body>
+</html>
+
+<!--
+<h1>Advanced Weather App Worry About Design Later</h1>
+        <span>Search with city name, US zip, UK postcode, Canada postal code, latitude and longitude.</span>
+        <input type="text" placeholder="E.g: 51.5072,0.1276">
+
+-->
+
